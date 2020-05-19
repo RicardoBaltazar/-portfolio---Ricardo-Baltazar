@@ -1,14 +1,7 @@
 html{
   scroll-behavior: smooth;
 }
-.navbar{
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color: black;
-  border: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-}
+
 .linkMenu{
   color: white;
 }
@@ -76,19 +69,20 @@ p{
 footer{
   background-color: rgb(19, 18, 18);
   padding: 25px;
-
+  display: flex;
+  justify-content: center;
+}
+.divFooter{
+  display: flex;
 }
 .pFooter{
-  font-size: 16px;
-  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin: 25px;
   color: white;
 }
-.email{
-  margin-top: 10px;
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-}
+
+
 
 
 /*///////////////////////////////////////////////////////////*/
