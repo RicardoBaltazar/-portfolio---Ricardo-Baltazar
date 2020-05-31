@@ -1,7 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
 .body{
     background-color:white ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
 }
 
 /*menu*/
