@@ -1,229 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricardo Baltazar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css.css">
-
+  <title>Ricardo Baltazar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body class="body">
-<header>
 
-</header>
-<br><br><br>
-
-<main>
-<section>
-
-</section>
-</main>
-
-<div class="container-fluid bg-3 text-center" id="project">    
-    <div class="row">
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/simula.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <p><a href="https://github.com/RicardoBaltazar/Simulador-Investe" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-        </div>
-
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/clima-agora.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <h2> Html / Css / Javascript / bootstrap </h2>
-                        <p><a href="https://ricardobaltazar.github.io/clima-agora-app/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-        </div>
-
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/consulta-cep.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <h2> Html / Css / Javascript / bootstrap </h2>
-                        <p><a href="https://github.com/RicardoBaltazar/consulta-cep" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-            <p>Consulta Cep</p>
-        </div>
-
-
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/diversos.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <p><a href="https://ricardobaltazar.github.io/sites-diversos/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-                </div>     
-                <p>Aplicações diversas</p>
-        </div>
-        
-
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
     </div>
-</div><br><br><br>
-
-
-<div class="container-fluid bg-3 text-center" id="project">    
-    <div class="row">
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/cadastro.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <h2> Html / Css / Javascript / bootstrap </h2>
-                        <p><a href="https://ricardobaltazar.github.io/Cadastro-Crud-frontend/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-            <p>formulário de cadastro</p>
-        </div>
-        
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/lista-produtos.png" alt = "image" >
-                <div class = "overlay"> 
-                        <h2> Html / Css / Javascript / bootstrap </h2>
-                        <p><a href="https://ricardobaltazar.github.io/lista-de-produtos-linx/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-            <p>Lista de produtos</p>
-        </div>
-        
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/blocos.png" alt = "image" >
-                <div class = "overlay"> 
-                        <h2> Html / Css / Javascript / bootstrap </h2>
-                        <p><a href="https://ricardobaltazar.github.io/blocos-notas/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-                </div>     
-            <p>Pinte o Bloco</p>
-        </div>
-        
-        
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/calculadora.png" alt = "image" >
-                <div class = "overlay"> 
-                    <h2>Html / Javascript</h2>
-                        <p><a href="https://ricardobaltazar.github.io/Calculadora/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-                </div>     
-                <p>Calculadora</p>
-        </div>
-        
-        
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
     </div>
-</div><br><br><br>
+  </div>
+</nav>
 
-
-<div class="container-fluid bg-3 text-center" id="project">    
-    <div class="row">
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/prato.png" alt = "image" >
-                <div class = "overlay"> 
-                    <h2> Html / Css / Javascript / bootstrap </h2>
-                    <p><a href="https://ricardobaltazar.github.io/prato-do-dia/" target="blank"> Visitar Projeto </a></p>
-                </div>
-            </div>     
-            <p>Prato do Dia</p>
-        </div>
-    
-    <div class="img col-sm-3">
-        <div class = "hovereffect">
-            <img class = "img-responsive img-thumbnail" src = "./img/modal.png" alt = "image" >
-            <div class = "overlay"> 
-                <h2> Html / Css / Javascript </h2>
-                <p><a href="https://ricardobaltazar.github.io/Galeria-modal/" target="blank"> Visitar Projeto </a></p>
-            </div>
-        </div>     
-        <p>Galeria Modal</p>
-    </div>
-    
-    <div class="img col-sm-3">
-        <div class = "hovereffect">
-            <img class = "img-responsive img-thumbnail" src = "./img/pinte-bloco.png" alt = "image" >
-            <div class = "overlay"> 
-                <h2> Html / Css / Javascript / bootstrap </h2>
-                <p><a href="https://ricardobaltazar.github.io/Pinte-o-bloco/" target="blank"> Visitar Projeto </a></p>
-            </div>
-        </div>     
-        <p>Pinte o Bloco</p>
-    </div>
-    
-    
-    <div class="img col-sm-3">
-        <div class = "hovereffect">
-            <img class = "img-responsive img-thumbnail" src = "./img/snake.png" alt = "image" >
-            <div class = "overlay"> 
-                <h2>Html / Javascript</h2>
-                <p><a href="https://ricardobaltazar.github.io/jogo-snake/" target="blank"> Visitar Projeto </a></p>
-            </div>
-        </div>     
-        <p>Jogo da Serpente</p>
-    </div>
+<div class="jumbotron">
+  <div class="container text-center">
+    <img src="./img/44250771_1835526663230092_6066689211665219584_n.jpg" alt="image" class="imgAbout">
+    <h1>Ricardo Baltazar</h1>      
+    <p>Front-end developer</p>
+  </div>
 </div>
-</div><br><br><br>
 
 
-<div class="container-fluid bg-3 text-center" id="project">    
-        <div class="row">
-            <div class="img col-sm-3">
-                <div class = "hovereffect">
-                    <img class = "img-responsive img-thumbnail" src = "./img/mude-a-cor.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <h2> Html / Css / Javascript </h2>
-                        <p><a href="https://ricardobaltazar.github.io/Muda-cor-de-fundo/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-                </div>     
-            <p>Mude a cor</p>
-        </div>
-        
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/binario.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <h2> Html / Css / Javascript </h2>
-                        <p><a href="https://ricardobaltazar.github.io/Conversos-de-Bin-rio-para-Dcimal/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-            <p>Conversor Binário</p>
+
+
+<div class="container-fluid bg-3 text-center">   
+
+
+    <h3>Alguns Projetos</h3><br><br>
+    <div class="row" id="projects">
+        <div class="col-sm-4">
+            <p>Previsão do tempo</p>
+            <img src="./img/clima-agora.png" class="img-responsive thumbnail" style="width:100%" alt="Image">
+            <div class="description">
+                <p>Aplicação front-end de previsão do tempo. Feito em html, css e javascript. </p>
+                <a href="">Site do projeto</a>
+                <br>
+                <a href="">Repósitorio github do projeto</a>
+            </div>
         </div>
 
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/pinte-bloco.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <h2> Html / Css / Javascript / bootstrap </h2>
-                        <p><a href="https://ricardobaltazar.github.io/Pinte-o-bloco/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-            </div>     
-            <p>Pinte o Bloco</p>
+        <div class="col-sm-4"> 
+            <p>Aplicação front-end login</p>
+            <img src="./img/login.png" class="img-responsive thumbnail" style="width:100%" alt="Image">
+            <div class="description">
+                <p>Aplicação front-end de cadastro de login com efeito modal. <br>
+                html , css, javascript. </p>
+                <a href="">Site do projeto</a>
+                <br>
+                <a href="">Repósitorio github do projeto</a>
+            </div>
         </div>
-
-
-        <div class="img col-sm-3">
-            <div class = "hovereffect">
-                <img class = "img-responsive img-thumbnail" src = "./img/diversos.png" alt = "image" >
-                    <div class = "overlay"> 
-                        <p><a href="https://ricardobaltazar.github.io/sites-diversos/" target="blank"> Visitar Projeto </a></p>
-                    </div>
-                </div>     
-                <p>Aplicações diversas</p>
+        <div class="col-sm-4"> 
+            <p>Animação css</p>
+            <img src="./img/animation.gif" class="img-responsive thumbnail" style="width:100%" alt="Image">
+            <div class="description">
+                <p>Aplicação front-end com animação em css. <br>
+                html , css, javascript. </p>
+                <a href="">Site do projeto</a>
+                <br>
+                <a href="">Repósitorio github do projeto</a>
+            </div>
         </div>
-</div>
-</div><br><br><br>
+    </div>
+</div><br><br>
 
-</section>
-</main>
+
+
 <footer class="container-fluid text-center" id="contact">
-
+  <p>Footer Text</p>
 </footer>
 
 </body>
