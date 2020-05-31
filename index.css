@@ -45,6 +45,10 @@ p{
 
 /*footer*/
   footer {
-    background-color: #f2f2f2;
     padding: 25px;
-  }
+    
+}
+.imgFooter{
+    box-shadow: none;
+    margin: 5px;
+}
